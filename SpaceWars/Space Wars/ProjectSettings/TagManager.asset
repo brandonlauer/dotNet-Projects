@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GM
+  - Exhaust
+  - Enemy
+  - music
+  - soundEffect
+  - masterSlider
+  - login
+  - message
+  - error
+  - shopPanel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - ShieldBlocks
+  - IgnoreProjectiles
+  - Projectile
+  - ObstacleCheck
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1876927329
+    locked: 0
+  - name: Foreground
+    uniqueID: 4049098797
+    locked: 0
+  - name: Player
+    uniqueID: 3728883307
+    locked: 0
+  - name: GUI
+    uniqueID: 4119991025
+    locked: 0

@@ -1,0 +1,295 @@
+DAILY SCRUM - EVERY DAY AT 9 AM
+===============================
+
+Each member writes down answers to 3 questions:
+
+<< Current date goes here >>
+1. What I have done / not done since last Scrum?
+2. What I plan to do from this scrum to next? (24 hours)
+3. Where do I need assistance? What do I need to figure out?
+
+Brandon << 2018-03-27 >>
+1. What I have done / not done since last Scrum?
+- Started project proposal
+2. What I plan to do from this scrum to next? 
+- Finish project proposal
+- Create project
+- Import assets
+- Create walking forwards and backwards animations
+3. Where do I need assistance? What do I need to figure out?
+- Character movement
+- Create walking animations for main character
+
+Roberto<< 2018-03-27 >>
+1. What I have done / not done since last Scrum?
+- Started project proposal
+2. What I plan to do from this scrum to next? 
+- Finish project proposal
+- Create database
+- Create character movement
+3. Where do I need assistance? What do I need to figure out?
+- Moving game object with keyboard input
+
+Roberto<< 2018-03-28 >>
+1. What I have done / not done since last Scrum?
+- Project poposal finished and submitted
+- Move the character
+- Created database on Azure
+2. What I plan to do from this scrum to next? 
+- Create Menu GUI
+- Create all table into the database
+3. Where do I need assistance? What do I need to figure out?
+-
+
+Brandon << 2018-03-28 >>
+1. What I have done / not done since last Scrum?
+- Finished project proposal
+- Created running animation
+2. What I plan to do from this scrum to next? 
+- Implement character movement
+- Rotate arm and gun to look at mouse position
+- Make camera follow player
+3. Where do I need assistance? What do I need to figure out?
+-
+
+Roberto<< 2018-03-29>>
+1. What I have done / not done since last Scrum?
+- Created all tables in the database
+- Creted Main Menu and Audio Menu
+2. What I plan to do from this scrum to next? 
+- Create Shop menu
+- Add animation and sound effect to the menu
+3. Where do I need assistance? What do I need to figure out?
+- How to add sound effects
+
+
+Brandon<< 2018-03-29>>
+1. What I have done / not done since last Scrum?
+- Implement character movement
+- Rotate arm and gun to look at mouse position
+- Make camera follow player
+2. What I plan to do from this scrum to next? 
+- Add blaster functionality
+- Projectile script and impact particles
+3. Where do I need assistance? What do I need to figure out?
+- Particle systems
+
+Brandon<< 2018-03-30>>
+1. What I have done / not done since last Scrum?
+- Add blaster functionality
+- Projectile script and impact particles
+- Added shield blocks
+2. What I plan to do from this scrum to next?
+- Add shield tank that drains when player creates shield blocks and refills when he is on solid ground.
+- Create player and gamemaster scripts to add player health
+3. Where do I need assistance? What do I need to figure out?
+- In game GUI
+
+Roberto<< 2018-03-30>>
+1. What I have done / not done since last Scrum?
+- Started the shop menu
+- Creared the Host or join dialog
+- Did not add sound effects to the menu
+2. What I plan to do from this scrum to next? 
+- Finish Shop menu
+- Create Host/Join game room
+- Add sound effect and music to the menus
+3. Where do I need assistance? What do I need to figure out?
+- How to add sound effects and music.
+
+Roberto<< 2018-03-31>>
+1. What I have done / not done since last Scrum?
+- Finished shop menu
+- Added sound effects to the menu
+- Did not add music
+- Did not create host/join lobby
+2. What I plan to do from this scrum to next? 
+- Add music
+- Create Host/Join game room
+3. Where do I need assistance? What do I need to figure out?
+-
+
+Roberto<< 2018-04-02>>
+1. What I have done / not done since last Scrum?
+- Added backgnound music
+- Added music and sound effect controls from the audio settings
+- Did not create host/join lobby
+2. What I plan to do from this scrum to next? 
+- Create Host/Join game room
+- Figure out how to crate a multiplayer session
+- Start working on a ingame menu
+3. Where do I need assistance? What do I need to figure out?
+- Find assest for power-up to add to the Shop
+
+Roberto<< 2018-04-03>>
+1. What I have done / not done since last Scrum?
+- Figured out how to crate a multiplayer session
+- Made master volume stay the same even when changing scene
+- Did not create host/join lobby
+2. What I plan to do from this scrum to next? 
+- Create Host/Join game room
+- Create Network connection for Host game
+3. Where do I need assistance? What do I need to figure out?
+
+Brandon<< 2018-04-04>>
+1. What I have done / not done since last Scrum?
+- Added shield fuel tank
+- Created GameMaster that takes care of killing player.
+- Created player script
+2. What I plan to do from this scrum to next?
+- Start working on multiplayer
+- Add player health bar
+3. Where do I need assistance? What do I need to figure out?
+- Mulitplayer networking
+
+Roberto<< 2018-04-04>>
+1. What I have done / not done since last Scrum?
+- Created multiplayer game sample
+- Created Host/Join game rooms
+- Fixed bugs for the audio settings
+2. What I plan to do from this scrum to next? 
+- Personalized the Connection menu for the multiplayer 
+- Fix bugs in the multipayer
+3. Where do I need assistance? What do I need to figure out?
+-
+
+Roberto<< 2018-04-05>>
+1. What I have done / not done since last Scrum?
+- Started working on host game lobby
+- Fixed bugs for the audio settings
+2. What I plan to do from this scrum to next? 
+- Continue working on the host lobby
+- Modify Host UI
+3. Where do I need assistance? What do I need to figure out?
+-
+
+Brandon<< 2018-04-05>>
+1. What I have done / not done since last Scrum?
+- Added player health bar
+- Create health pack power-up
+2. What I plan to do from this scrum to next?
+- Create stun mine power-up
+- Start working on auto-turret power-up
+3. Where do I need assistance? What do I need to figure out?
+- Stun animation with electricity effect
+
+Brandon<< 2018-04-06>>
+1. What I have done / not done since last Scrum?
+- Completed stun mine functionality
+- Fixed player stunned animation
+- Implemented auto turret.
+2. What I plan to do from this scrum to next?
+- Allow player to pick up power-ups
+- Have preview of turret to let player choose where to spawn it.
+3. Where do I need assistance? What do I need to figure out?
+- Displaying preview of power-ups.
+
+Roberto<< 2018-04-06>>
+1. What I have done / not done since last Scrum?
+- Start working on the log-in and register
+- Created script to connect to the databese
+2. What I plan to do from this scrum to next? 
+- Finish login/register UI
+- Connect the Login UI to the database
+3. Where do I need assistance? What do I need to figure out?
+- How to save the player Login status to avoid to login every time the game launch
+
+Roberto<<Weekend (7th - 8th)>>
+1. What I have done / not done since last Scrum?
+- Finished login/register UI
+- Connected functionality to DB to login and register with working error and check messages
+- Fixed bugs
+2. What I plan to do from this scrum to next? 
+- Add connection to DB for Shop
+- Fix multiplayer Host/Join lobby
+3. Where do I need assistance? What do I need to figure out?
+- How to save the player Login status to avoid to login every time the game launch
+- Find way to have globals variables
+
+Brandon<<Weekend (7th - 8th)>>
+1. What I have done / not done since last Scrum?
+- Created preview form of turret
+- Player can pick up turret power-up
+2. What I plan to do from this scrum to next?
+- Add turret health bar.
+- Add GUI square that shows current power-up
+3. Where do I need assistance? What do I need to figure out?
+- 
+
+Brandon<<2018-04-09>>
+1. What I have done / not done since last Scrum?
+- Added turret health bar
+- redesigned GUI to display current power-up
+2. What I plan to do from this scrum to next?
+- Finish stun mine power-up
+- Work on the arena
+3. Where do I need assistance? What do I need to figure out?
+- 
+
+Roberto<<2018-04-09>>
+1. What I have done / not done since last Scrum?
+- Fixed bugs for login and registration
+- Didn't add connection to db for Shop
+2. What I plan to do from this scrum to next? 
+- Add connection to DB for Shop
+- Fix multiplayer Host/Join lobby
+- Fix login UI
+- Add global variable to save the login status
+3. Where do I need assistance? What do I need to figure out?
+- 
+
+Brandon<<2018-04-10>>
+1. What I have done / not done since last Scrum?
+- Finished stun mine power-up
+- Improved arena
+- Added power-up spawning system.
+2. What I plan to do from this scrum to next?
+- Implement new weapons
+- Currency system
+3. Where do I need assistance? What do I need to figure out?
+- Link currency system to database
+
+Roberto<<2018-04-10>>
+1. What I have done / not done since last Scrum?
+- Made Lan Host and Join multiplayer game work
+- Created globalUserStats to store all info about the user
+- Creted Avatar that shows when player is logged in
+2. What I plan to do from this scrum to next? 
+- Fix database that instead of ability points we have currency to buy weapons
+- Connect shop to DB
+3. Where do I need assistance? What do I need to figure out?
+- 
+
+Brandon<<2018-04-11>>
+1. What I have done / not done since last Scrum?
+- Added 2 new weapons
+- Finished arena
+- Clamped camera to arena
+- Fixed bugs
+2. What I plan to do from this scrum to next?
+- Buy / equip weapons in the shop
+- Get multiplayer working properly
+3. Where do I need assistance? What do I need to figure out?
+- Multiplayer networking
+
+Roberto<<2018-04-11>>
+1. What I have done / not done since last Scrum?
+- Fixed database to store weapons and coins
+- Connected shop to DB
+- Added functionality to buy weapon
+2. What I plan to do from this scrum to next? 
+- Update db when a weapon is bought
+- Add equip function
+- Star working on th PP for presentation
+- Fix Bugs
+3. Where do I need assistance? What do I need to figure out?
+- Multiplayer nerworking
+
+Brandon<<2018-04-12>>
+1. What I have done / not done since last Scrum?
+- Got multiplayer working
+2. What I plan to do from this scrum to next?
+- Fix name tags and other multiplayer bugs
+- Correctly display the equipped weapon in game
+3. Where do I need assistance? What do I need to figure out?
+- 
