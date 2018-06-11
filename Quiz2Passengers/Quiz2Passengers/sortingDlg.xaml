@@ -1,0 +1,19 @@
+﻿<Window x:Class="Quiz2Passengers.SortingDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiz2Passengers"
+        mc:Ignorable="d"
+        Title="Sorting" Height="139.781" Width="351.499">
+    <Grid>
+        <Label Content="Sort by:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="rbName" IsChecked="True" Content="Name" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="rbPassport" Content="Passport no." HorizontalAlignment="Left" Margin="75,41,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="rbDest" Content="Dest" HorizontalAlignment="Left" Margin="173,41,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="rbDepDateTime" Content="Dep. date/time" HorizontalAlignment="Left" Margin="233,41,0,0" VerticalAlignment="Top"/>
+        <Button Name="btCancel" Content="Cancel" HorizontalAlignment="Left" Margin="55,79,0,0" VerticalAlignment="Top" Width="95" Click="btCancel_Click"/>
+        <Button Name="btApply" Content="Apply" HorizontalAlignment="Left" Margin="186,79,0,0" VerticalAlignment="Top" Width="95" Click="btApply_Click"/>
+
+    </Grid>
+</Window>

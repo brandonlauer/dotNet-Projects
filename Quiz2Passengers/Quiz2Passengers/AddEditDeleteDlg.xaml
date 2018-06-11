@@ -1,0 +1,76 @@
+﻿<Window x:Class="Quiz2Passengers.AddEditDeleteDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiz2Passengers"
+        mc:Ignorable="d"
+        Title="AddEditDeleteDlg" Height="322.888" Width="324.523">
+    <Grid>
+        <Label Content="Id:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Passport no:" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top"/>
+        <Label Content="Destination:" HorizontalAlignment="Left" Margin="10,126,0,0" VerticalAlignment="Top"/>
+        <Label Content="Dep. date:" HorizontalAlignment="Left" Margin="10,168,0,0" VerticalAlignment="Top"/>
+        <Label Content="Dep. time:" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top"/>
+        <Label Name="lblId" Content="..." HorizontalAlignment="Left" Margin="38,10,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="tbname" HorizontalAlignment="Left" Height="23" Margin="91,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174"/>
+        <TextBox Name="tbPassport" HorizontalAlignment="Left" Height="23" Margin="91,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174"/>
+        <TextBox Name="tbDestination" HorizontalAlignment="Left" Height="23" Margin="91,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174"/>
+        <DatePicker Name="dpDepDate" HorizontalAlignment="Left" Margin="91,170,0,0" VerticalAlignment="Top" Width="174"/>
+        <ComboBox Name="cbDepTime" HorizontalAlignment="Left" Margin="91,213,0,0" VerticalAlignment="Top" Width="174">
+            <ComboBoxItem IsSelected="True" Content="00:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="00:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="01:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="01:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="02:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="02:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="03:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="03:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="04:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="04:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="05:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="05:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="06:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="06:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="07:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="07:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="08:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="08:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="09:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="09:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="10:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="10:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="11:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="11:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="12:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="12:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="13:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="13:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="14:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="14:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="15:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="15:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="16:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="16:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="17:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="17:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="18:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="18:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="19:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="19:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="20:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="20:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="21:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="21:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="22:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="22:30" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="23:00" HorizontalAlignment="Left" Width="172"/>
+            <ComboBoxItem Content="23:30" HorizontalAlignment="Left" Width="172"/>
+        </ComboBox>
+        <Button Name="btCancel" Content="Cancel" HorizontalAlignment="Left" Margin="10,256,0,0" VerticalAlignment="Top" Width="95" Height="26" Click="btCancel_Click"/>
+        <Button Name="btSave" Content="Save" HorizontalAlignment="Left" Margin="212,256,0,0" VerticalAlignment="Top" Width="95" Height="26" Click="btSave_Click"/>
+        <Button Name="btDelete" Content="Delete" HorizontalAlignment="Left" Margin="111,256,0,0" VerticalAlignment="Top" Width="95" Height="26" Click="btDelete_Click"/>
+
+    </Grid>
+</Window>

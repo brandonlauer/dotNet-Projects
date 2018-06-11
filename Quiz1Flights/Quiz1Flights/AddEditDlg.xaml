@@ -1,0 +1,31 @@
+﻿<Window x:Class="Quiz1Flights.AddEditDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiz1Flights"
+        mc:Ignorable="d"
+        Title="AddEditDlg" Height="344.439" Width="233.389">
+    <Grid>
+        <Label Content="Id:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Date:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="From code:" HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top"/>
+        <Label Content="To code:" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top"/>
+        <Label Content="Passengers:" HorizontalAlignment="Left" Margin="10,224,0,0" VerticalAlignment="Top"/>
+        <Label Name="lblId" Content="..." HorizontalAlignment="Left" Margin="43,10,0,0" VerticalAlignment="Top"/>
+        <DatePicker Name="dpOuDate" HorizontalAlignment="Left" Margin="84,42,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbFromCode" HorizontalAlignment="Left" Height="23" Margin="84,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbToCode" HorizontalAlignment="Left" Height="23" Margin="84,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox Name="cbType" HorizontalAlignment="Left" Margin="84,160,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="Domestic" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="International" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Private" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+        <Label Content="Type:" HorizontalAlignment="Left" Margin="10,156,0,0" VerticalAlignment="Top"/>
+        <Label Content="{Binding ElementName=slPassengers, Path=Value}" HorizontalAlignment="Left" Margin="86,224,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.281,0.013"/>
+        <Slider Name="slPassengers" TickFrequency="1" IsSnapToTickEnabled="True" Value="100" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" Width="194" Maximum="200"/>
+        <Button Name="btCancel" Content="Cancel" HorizontalAlignment="Left" Margin="10,269,0,0" VerticalAlignment="Top" Width="93" Height="25" Click="btCancel_Click"/>
+        <Button Name="btSave" Content="Save" HorizontalAlignment="Left" Margin="115,269,0,0" VerticalAlignment="Top" Width="93" Height="25" Click="btSave_Click"/>
+
+    </Grid>
+</Window>
